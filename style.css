@@ -1,0 +1,76 @@
+.text-purple {
+    color: #FF136F;
+}
+
+.btn-purple {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    padding: 3px 30px;
+    width: 162px;
+}
+
+.btn-purple i {
+    font-size: 30px;
+}
+
+.main-nav li a {
+    color: #707070 !important;
+    font-weight: 500;
+}
+
+.nav-search input, .nav-search button {
+    border-radius: 200px;
+    background: #f5f5f5;
+    border-color: transparent;
+    color: #949494;
+}
+
+.nav-search input {
+    padding: 10px 25px;
+}
+
+.nav-search input::placeholder {
+    color: #cac8c8;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.main-slider {
+    background-color: #fceae8;
+    border-radius: 15px;
+    padding: 35px;
+    box-sizing: border-box !important;
+}
+
+.carousel-content .title {
+    font-size: 3rem;
+}
+
+.carousel-content .subtitle {
+    width: 80%;
+}
+
+.carousel-content .price {
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: -2px !important;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #FF136F;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .8rem;
+        padding-left: .8rem;
+    }
+    .nav-search input {
+        width: 400px !important;
+    }
+    .nav-search {
+        margin-left: 3rem;
+    }
+}
