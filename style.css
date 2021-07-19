@@ -3,21 +3,45 @@
 }
 
 .btn-purple {
-    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    background: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     color: #fff;
     border: none;
     font-size: 1rem;
     padding: 3px 30px;
     width: 162px;
+    transition: .2s;
+}
+
+.btn-purple:hover {
+    color: #fff;
+    transform: translateY(-4px);
+    box-shadow: 3px 3px 0 #fff;
 }
 
 .btn-purple i {
-    font-size: 30px;
+    font-size: 1.875rem;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.section-title {
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+}
+
+header {
+    padding: 2rem 0;
 }
 
 .main-nav li a {
     color: #707070 !important;
     font-weight: 500;
+}
+
+.main-nav li a.active {
+    color: #FF136F !important;
 }
 
 .nav-search input, .nav-search button {
@@ -53,6 +77,8 @@
     border-radius: 15px;
     padding: 35px;
     box-sizing: border-box !important;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .carousel-content .title {
@@ -71,6 +97,13 @@
 
 .carousel-dark .carousel-indicators [data-bs-target] {
     background-color: #FF136F;
+}
+.product-category {
+    padding: 1rem 3rem;
+}
+.product-category img{
+    height: 97px;
+    width: auto;
 }
 
 @media (min-width: 992px) {
