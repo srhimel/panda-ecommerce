@@ -23,11 +23,10 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <form class="d-flex p-2">
+                        <form class="d-flex">
                             <div class="input-group nav-search">
                                 <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn  input-group-text" type="submit"><i
-                                        class="bi bi-search"></i></button>
+                                <button class="  input-group-text" type="submit"><i class="bi bi-search"></i></button>
                             </div>
                         </form>
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 main-nav">
@@ -42,6 +41,20 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ms-4 mb-2 mb-lg-0 account-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#"><i class="bi bi-person-circle"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#"><i class="bi bi-heart"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#"><i class="bi bi-cart position-relative"> <span
+                                            class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-danger">
+                                            9 <span class="visually-hidden">unread messages</span>
+                                        </span></i> </a>
                             </li>
                         </ul>
                     </div>
@@ -61,49 +74,46 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row align-items-center">
-                            <div class="col-lg-6 carousel-content">
+                            <div class="col-lg-6 carousel-content order-sm-1 order-lg-0 order-1">
                                 <h1 class="title fw-bolder">Mi LED TV 4A PRO 32 </h1>
                                 <p class="subtitle"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                                     sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
                                     sunt nostrud amet. </p>
                                 <p class="price text-purple">$1278</p>
-                                <a href="#" class="btn btn-purple d-flex align-items-center">BUY NOW <i
-                                        class="bi bi-arrow-right-short"></i></a>
+                                <a href="#" class="btn btn-purple">BUY NOW <i class="bi bi-arrow-right-short"></i></a>
                             </div>
-                            <div class="col-lg-6">
-                                <img class="w-75 d-block m-auto" src="images/banner-images/tv.png" alt="">
+                            <div class="col-lg-6  carousel-image order-sm-0 order-lg-1 order-0">
+                                <img class="d-block m-auto" src="images/banner-images/tv.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row align-items-center">
-                            <div class="col-lg-6 carousel-content">
+                            <div class="col-lg-6 carousel-content order-sm-1 order-lg-0 order-1">
                                 <h1 class="title fw-bolder">X-Box for your Life </h1>
                                 <p class="subtitle"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                                     sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
                                     sunt nostrud amet. </p>
                                 <p class="price text-purple">$978</p>
-                                <a href="#" class="btn btn-purple d-flex align-items-center">BUY NOW <i
-                                        class="bi bi-arrow-right-short"></i></a>
+                                <a href="#" class="btn btn-purple">BUY NOW <i class="bi bi-arrow-right-short"></i></a>
                             </div>
-                            <div class="col-lg-6">
-                                <img class="w-75 d-block m-auto" src="images/banner-images/xbox.png" alt="">
+                            <div class="col-lg-6 carousel-image order-sm-0 order-lg-1 order-0">
+                                <img class="d-block m-auto" src="images/banner-images/xbox.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row align-items-center">
-                            <div class="col-lg-6 carousel-content">
+                            <div class="col-lg-6 carousel-content  order-sm-1 order-lg-0 order-1">
                                 <h1 class="title fw-bolder">Cool Headphone</h1>
                                 <p class="subtitle"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                                     sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
                                     sunt nostrud amet. </p>
                                 <p class="price text-purple">$420</p>
-                                <a href="#" class="btn btn-purple d-flex align-items-center">BUY NOW <i
-                                        class="bi bi-arrow-right-short"></i></a>
+                                <a href="#" class="btn btn-purple">BUY NOW <i class="bi bi-arrow-right-short"></i></a>
                             </div>
-                            <div class="col-lg-6">
-                                <img class="w-75 d-block m-auto" src="images/banner-images/headphone.png" alt="">
+                            <div class="col-lg-6 carousel-image order-sm-0 order-lg-1 order-0">
+                                <img class="d-block m-auto" src="images/banner-images/headphone.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -112,20 +122,23 @@
             <div class="container">
                 <h2 class="section-title"> Categories </h2>
                 <div class="row justify-content-center">
-                    <div class="col-lg-4">
-                        <div class="d-flex product-category align-items-center justify-content-between">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div
+                            class="d-flex product-category product-category-1 align-items-center justify-content-between">
                             <h3>Watch</h3>
                             <img src="images/categories/watch.png" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="d-flex product-category align-items-center justify-content-between">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div
+                            class="d-flex product-category product-category-2 align-items-center justify-content-between">
                             <h3>Bag</h3>
                             <img src="images/categories/bag.png" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="d-flex product-category align-items-center justify-content-between">
+                    <div class="col-lg-4 mb-4">
+                        <div
+                            class="d-flex product-category product-category-3 align-items-center justify-content-between">
                             <h3>Shoes</h3>
                             <img src="images/categories/shoes.png" alt="">
                         </div>
@@ -134,11 +147,120 @@
             </div>
         </header>
         <main>
-            <section class="categories">
+            <section class="products products-shoes">
                 <div class="container">
+                    <h2 class="section-title"> Shoes </h2>
+                    <div class="product-cards">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="card product-card mb-4 text-center">
+                                    <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                                        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                            do amet sint.</p>
+                                        <p class="card-price">$1289</p>
+                                        <a href="#" class="btn btn-dark m-auto">BUY NOW <i
+                                                class="bi bi-arrow-right-short"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="card product-card mb-4 text-center">
+                                    <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reebok Pump</h5>
+                                        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                            do amet sint.</p>
+                                        <p class="card-price">$799</p>
+                                        <a href="#" class="btn btn-dark m-auto">BUY NOW <i
+                                                class="bi bi-arrow-right-short"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="card product-card mb-4 text-center">
+                                    <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reebok All Terrain</h5>
+                                        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                            do amet sint.</p>
+                                        <p class="card-price">$689</p>
+                                        <a href="#" class="btn btn-dark m-auto">BUY NOW <i
+                                                class="bi bi-arrow-right-short"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="products products-backpack">
+                <div class="container">
+                    <h2 class="section-title"> Backpack </h2>
+                    <div class="product-cards">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="card product-card mb-4 text-center">
+                                    <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ison Backpack</h5>
+                                        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                            do amet sint.</p>
+                                        <p class="card-price">$459</p>
+                                        <a href="#" class="btn btn-dark m-auto">BUY NOW <i
+                                                class="bi bi-arrow-right-short"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="card product-card mb-4 text-center">
+                                    <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Biaowang Backpack</h5>
+                                        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                            do amet sint.</p>
+                                        <p class="card-price">$749</p>
+                                        <a href="#" class="btn btn-dark m-auto">BUY NOW <i
+                                                class="bi bi-arrow-right-short"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="card product-card mb-4 text-center">
+                                    <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dxyizu WS54 Smart</h5>
+                                        <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                            do amet sint.</p>
+                                        <p class="card-price">$189</p>
+                                        <a href="#" class="btn btn-dark m-auto">BUY NOW <i
+                                                class="bi bi-arrow-right-short"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="email">
+                <div class="container email-wrapper">
+                    <div class="email-content">
+                        <h2>LET'S STAY IN TOUCH</h2>
+                        <p>Get updates on sales, specials and more</p>
+                        <form class="subscribe">
+                            <div class="input-group">
+                                <input class="form-control" type="email" placeholder="Enter your email">
+                                <button class=" input-group-text btn-purple" type="submit">Send</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </section>
         </main>
+        <footer>
+            <p class="copyright text-center"> 2018-2021 &copy; All right reserved </p>
+        </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
