@@ -37,6 +37,17 @@
     font-weight: 500;
 }
 
+.nav-search input:hover, .nav-search input:visited, .nav-search input:focus, .nav-search input:active, .nav-search button:hover, .nav-search button:visited, .nav-search button:focus, .nav-search button:active {
+    outline: 0;
+    box-shadow: none;
+    border-color: transparent;
+    background: #f5f5f5;
+}
+
+.nav-search button:hover {
+    color: #FF136F;
+}
+
 .main-slider {
     background-color: #fceae8;
     border-radius: 15px;
